@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+
+$Green: hsl(192, 37, 38);
+$Dark-purple: hsl(268, 34, 53);
+$Black: hsl(240, 21, 20);
+$Gray: hsl(240, 10, 57);
+$Light-blue: hsl(192, 90, 77);
+$Light-purple: hsl(268, 100, 86);
+$White: hsl(0, 0, 98);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background: $White;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 48px auto 54px auto;
+}
+.groupchat {
+  display: flex;
+  width: 1504px;
+  height: 358px;
+
+  .groupchat_img {
+    // flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+    img {
+      border-radius: 50%;
+      padding: 0.5rem;
+      height: 110px;
+      width: 110px;
+    }
+
+    .mid {
+      margin-top: -58px;
+    }
+    .mid-2 {
+      margin-top: 58px;
+    }
+  }
+
+  .groupchat_text {
+    flex: 2;
+    padding: 2rem;
+    margin: 0 150px 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      text-align: center;
+      font-size: 64px;
+      line-height: 64px;
+      color: $Black;
+    }
+
+    p {
+      color: $Gray;
+      text-align: center;
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .groupchat_buttons {
+    margin-left: -65px;
+    display: flex;
+    justify-content: center;
+
+    .btn1 {
+      width: 194px;
+      height: 58px;
+      margin-right: 15px;
+      font-size: 15px;
+      font-weight: 800;
+      text-align: center;
+      background: $Green;
+      // padding: 1rem 3rem;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      color: $White;
+
+      span {
+        color: $Light-blue;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background: #71c0d4;
+      }
+    }
+
+    .btn2 {
+      font-size: 15px;
+      font-weight: 800;
+      text-align: center;
+      width: 139px;
+      height: 58px;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      background: $Dark-purple;
+      color: $White;
+
+      &:hover {
+        cursor: pointer;
+        background: $Light-purple;
+      }
+    }
+  }
+}
+
+.number1-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .line {
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 1px;
+    height: 84px;
+    background-color: $Gray;
+    opacity: 25%;
+  }
+
+  .button-number {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid $Gray;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    color: $Gray;
+    background-color: $White;
+    margin-bottom: 62px;
+  }
+}
+
+.mid-images {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 163px;
+  height: 242px;
+  width: 1110px;
+
+  img {
+    border-radius: 15px;
+    height: 242px;
+    width: 255px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 64px;
+  text-align: center;
+  width: 540px;
+  height: 240;
+
+  h3 {
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $Green;
+    // margin-bottom: -50px;
+  }
+
+  h2 {
+    margin-top: 37px;
+    color: $Black;
+    // margin-top: 50px;
+    font-weight: 900;
+    line-height: 44px;
+    font-size: 40px;
+  }
+
+  p {
+    margin-top: 35px;
+    text-align: center;
+    color: $Gray;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 26px;
+  }
+}

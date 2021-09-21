@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background: #fafafa; }
+
+header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 48px auto 54px auto; }
+
+.groupchat {
+  display: flex;
+  width: 1504px;
+  height: 358px; }
+  .groupchat .groupchat_img {
+    display: grid;
+    grid-template-columns: repeat(3, auto); }
+    .groupchat .groupchat_img img {
+      border-radius: 50%;
+      padding: 0.5rem;
+      height: 110px;
+      width: 110px; }
+    .groupchat .groupchat_img .mid {
+      margin-top: -58px; }
+    .groupchat .groupchat_img .mid-2 {
+      margin-top: 58px; }
+  .groupchat .groupchat_text {
+    flex: 2;
+    padding: 2rem;
+    margin: 0 150px 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .groupchat .groupchat_text h1 {
+      text-align: center;
+      font-size: 64px;
+      line-height: 64px;
+      color: #28283e; }
+    .groupchat .groupchat_text p {
+      color: #86869c;
+      text-align: center;
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 30px; }
+  .groupchat .groupchat_buttons {
+    margin-left: -65px;
+    display: flex;
+    justify-content: center; }
+    .groupchat .groupchat_buttons .btn1 {
+      width: 194px;
+      height: 58px;
+      margin-right: 15px;
+      font-size: 15px;
+      font-weight: 800;
+      text-align: center;
+      background: #3d7685;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      color: #fafafa; }
+      .groupchat .groupchat_buttons .btn1 span {
+        color: #90e4f9; }
+      .groupchat .groupchat_buttons .btn1:hover {
+        cursor: pointer;
+        background: #71c0d4; }
+    .groupchat .groupchat_buttons .btn2 {
+      font-size: 15px;
+      font-weight: 800;
+      text-align: center;
+      width: 139px;
+      height: 58px;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      background: #845eb0;
+      color: #fafafa; }
+      .groupchat .groupchat_buttons .btn2:hover {
+        cursor: pointer;
+        background: #d9b8ff; }
+
+.number1-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .number1-section .line {
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 1px;
+    height: 84px;
+    background-color: #86869c;
+    opacity: 25%; }
+  .number1-section .button-number {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #86869c;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    color: #86869c;
+    background-color: #fafafa;
+    margin-bottom: 62px; }
+
+.mid-images {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 163px;
+  height: 242px;
+  width: 1110px; }
+  .mid-images img {
+    border-radius: 15px;
+    height: 242px;
+    width: 255px; }
+
+.container {
+  margin: 0 auto;
+  margin-top: 64px;
+  text-align: center;
+  width: 540px;
+  height: 240; }
+  .container h3 {
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #3d7685; }
+  .container h2 {
+    margin-top: 37px;
+    color: #28283e;
+    font-weight: 900;
+    line-height: 44px;
+    font-size: 40px; }
+  .container p {
+    margin-top: 35px;
+    text-align: center;
+    color: #86869c;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 26px; }
