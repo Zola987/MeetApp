@@ -13,10 +13,11 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 48px auto 54px auto; }
+  margin: 80px auto 61px auto; }
 
 .groupchat {
   display: flex;
+  margin-left: -35px;
   width: 1504px;
   height: 358px; }
   .groupchat .groupchat_img {
@@ -44,11 +45,12 @@ header {
       line-height: 64px;
       color: #28283e; }
     .groupchat .groupchat_text p {
+      margin-top: 51px;
       color: #86869c;
       text-align: center;
       font-size: 18px;
       line-height: 26px;
-      margin-bottom: 30px; }
+      margin-bottom: 38px; }
   .groupchat .groupchat_buttons {
     margin-left: -65px;
     display: flex;
@@ -92,7 +94,7 @@ header {
   align-items: center; }
   .number1-section .line {
     margin: 0 auto;
-    margin-top: 64px;
+    margin-top: 115px;
     width: 1px;
     height: 84px;
     background-color: #86869c;
@@ -116,7 +118,8 @@ header {
   align-items: center;
   margin-left: 163px;
   height: 242px;
-  width: 1110px; }
+  width: 1110px;
+  margin-bottom: 80px; }
   .mid-images img {
     border-radius: 15px;
     height: 242px;
@@ -125,6 +128,7 @@ header {
 .container {
   margin: 0 auto;
   margin-top: 64px;
+  margin-bottom: 74px;
   text-align: center;
   width: 540px;
   height: 240; }
@@ -148,3 +152,69 @@ header {
     font-size: 16px;
     font-weight: medium;
     line-height: 26px; }
+
+.number2-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -28px; }
+  .number2-section .line {
+    margin: 0 auto;
+    width: 1px;
+    height: 84px;
+    background-color: #86869c;
+    opacity: 25%; }
+  .number2-section .button-number {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #86869c;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    color: #86869c;
+    background-color: #fafafa; }
+
+footer {
+  background: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url("image-footer.jpg") no-repeat center;
+  background-size: cover;
+  height: 308px; }
+
+.footer-container {
+  display: flex;
+  padding: 110px 0 100px 0;
+  justify-content: center;
+  align-items: center; }
+
+.footer-experience {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fafafa;
+  line-height: 44px;
+  margin-right: 80px;
+  width: 20%; }
+
+.footer-stay-connected {
+  font-size: 18px;
+  width: 20%;
+  color: #fafafa;
+  font-weight: 500;
+  line-height: 26px;
+  margin-right: 100px; }
+
+#footer-button-download {
+  background-color: #855fb1;
+  width: 193px;
+  height: 58px;
+  border-radius: 29px;
+  border: none;
+  cursor: pointer;
+  color: #fafafa;
+  font-weight: 900; }
+
+#footer-button-download > span {
+  color: #d9b8ff; }
+
+#footer-button-download:hover {
+  background-color: #b18bdd; }
