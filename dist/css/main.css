@@ -52,7 +52,6 @@ header {
       line-height: 26px;
       margin-bottom: 38px; }
   .groupchat .groupchat_buttons {
-    margin-left: -65px;
     display: flex;
     justify-content: center; }
     .groupchat .groupchat_buttons .btn1 {
@@ -180,41 +179,35 @@ footer {
   background: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url("image-footer.jpg") no-repeat center;
   background-size: cover;
   height: 308px; }
-
-.footer-container {
-  display: flex;
-  padding: 110px 0 100px 0;
-  justify-content: center;
-  align-items: center; }
-
-.footer-experience {
-  font-size: 40px;
-  font-weight: 900;
-  color: #fafafa;
-  line-height: 44px;
-  margin-right: 80px;
-  width: 20%; }
-
-.footer-stay-connected {
-  font-size: 18px;
-  width: 20%;
-  color: #fafafa;
-  font-weight: 500;
-  line-height: 26px;
-  margin-right: 100px; }
-
-#footer-button-download {
-  background-color: #855fb1;
-  width: 193px;
-  height: 58px;
-  border-radius: 29px;
-  border: none;
-  cursor: pointer;
-  color: #fafafa;
-  font-weight: 900; }
-
-#footer-button-download > span {
-  color: #d9b8ff; }
-
-#footer-button-download:hover {
-  background-color: #b18bdd; }
+  footer .footer-container {
+    display: flex;
+    padding: 110px 0 100px 0;
+    justify-content: center;
+    align-items: center; }
+  footer .footer-experience {
+    font-size: 40px;
+    font-weight: 900;
+    color: #fafafa;
+    line-height: 44px;
+    margin-right: 80px;
+    width: 20%; }
+  footer .footer-stay-connected {
+    font-size: 18px;
+    width: 20%;
+    color: #fafafa;
+    font-weight: 500;
+    line-height: 26px;
+    margin-right: 100px; }
+  footer .footer-button-download {
+    background-color: #855fb1;
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    border: none;
+    cursor: pointer;
+    color: #fafafa;
+    font-weight: 900; }
+    footer .footer-button-download:hover {
+      background-color: #b18bdd; }
+  footer span {
+    color: #d9b8ff; }
