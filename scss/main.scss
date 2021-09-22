@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 
+// Desktop 1440 x 1895
+// Tablet 768 x 2128
+// Mobile 375 x 2215
+
 $Green: hsl(192, 37, 38);
 $Dark-purple: hsl(268, 34, 53);
 $Black: hsl(240, 21, 20);
@@ -47,11 +51,31 @@ header {
       height: 110px;
       width: 110px;
     }
-
-    .mid {
+    .left-2 {
       margin-top: -58px;
     }
-    .mid-2 {
+
+    .left-5 {
+      margin-top: -58px;
+    }
+  }
+
+  .groupchat_img-2 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+    img {
+      border-radius: 50%;
+      padding: 0.5rem;
+      height: 110px;
+      width: 110px;
+    }
+
+    .right-2 {
+      margin-top: 58px;
+    }
+
+    .right-5 {
       margin-top: 58px;
     }
   }
@@ -290,5 +314,213 @@ footer {
   }
   span {
     color: #d9b8ff;
+  }
+}
+
+@media (max-width: 768px) {
+  // header
+  header {
+    margin: 50px auto 62px auto;
+  }
+
+  //groupchat
+  .groupchat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+
+    .groupchat_img {
+      order: 1;
+
+      img {
+        border-radius: 50%;
+        padding: 0rem;
+        height: 110px;
+        width: 110px;
+      }
+
+      .left-1 {
+        position: absolute;
+        top: 194px;
+        left: -25px;
+      }
+
+      .left-2 {
+        position: absolute;
+        top: 138px;
+        left: 114px;
+        margin: 0;
+      }
+      .left-3 {
+        position: absolute;
+        top: 194px;
+        left: 258px;
+      }
+      .left-4 {
+        position: absolute;
+        top: 333px;
+        left: -25px;
+      }
+
+      .left-5 {
+        position: absolute;
+        top: 276px;
+        left: 116px;
+        margin: 0;
+      }
+      .left-6 {
+        position: absolute;
+        top: 333px;
+        left: 258px;
+      }
+    }
+
+    .groupchat_text {
+      order: 3;
+      position: absolute;
+      top: 515px;
+      left: 155px;
+      height: 262px;
+      width: 457px;
+      padding: 0;
+      margin: 0;
+
+      h1 {
+        text-align: center;
+        font-size: 64px;
+        line-height: 64px;
+        color: $Black;
+      }
+
+      p {
+        color: $Gray;
+        text-align: center;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 38px;
+      }
+    }
+
+    .groupchat_img-2 {
+      order: 2;
+
+      img {
+        border-radius: 50%;
+        margin: 0px;
+        padding: 0;
+        height: 110px;
+        width: 110px;
+      }
+
+      .right-1 {
+        position: absolute;
+        top: 138px;
+        right: 256px;
+      }
+
+      .right-2 {
+        position: absolute;
+        top: 194px;
+        right: 115px;
+        margin: 0;
+      }
+
+      .right-3 {
+        position: absolute;
+        top: 137px;
+        right: -25px;
+      }
+      .right-4 {
+        position: absolute;
+        top: 276px;
+        right: 255px;
+      }
+
+      .right-5 {
+        position: absolute;
+        top: 331px;
+        right: 115px;
+        margin: 0;
+      }
+      .right-6 {
+        position: absolute;
+        top: 276px;
+        right: 0px;
+        margin-right: -25px;
+      }
+    }
+  }
+
+  // number 1
+  .number1-section {
+    z-index: 10;
+    position: absolute;
+    top: 750px;
+    left: 355px;
+  }
+
+  //mid-images
+  .mid-images {
+    position: absolute;
+    width: 689px;
+    height: 156px;
+    bottom: 908px;
+    left: 40px;
+    margin: 0;
+
+    img {
+      width: 164px;
+      height: 156px;
+    }
+  }
+
+  //text-container
+  .container {
+    position: absolute;
+    margin: 0;
+    bottom: 625px;
+    left: 98px;
+    width: 573px;
+    height: 240px;
+  }
+
+  .number2-section {
+    z-index: 10;
+    position: absolute;
+    bottom: 429px;
+    right: 355px;
+  }
+
+  footer {
+    position: absolute;
+    height: 429px;
+    width: 768px;
+    bottom: 0;
+
+    .footer-container {
+      .footer-experience {
+        position: absolute;
+        bottom: 248px;
+        right: 248;
+        margin: 0;
+        width: 329px;
+        text-align: center;
+      }
+    }
+
+    .footer-stay-connected {
+      position: absolute;
+      bottom: 168px;
+      left: 102px;
+      width: 553px;
+      text-align: center;
+    }
+
+    .footer-button-download {
+      position: absolute;
+      bottom: 65px;
+      right: 287px;
+    }
   }
 }
