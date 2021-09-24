@@ -84,6 +84,9 @@ body {
         .groupchat .groupchat_buttons .btn1:hover {
           cursor: pointer;
           background: #71c0d4; }
+        .groupchat .groupchat_buttons .btn1:active {
+          cursor: pointer;
+          background: #71c0d4; }
       .groupchat .groupchat_buttons .btn2 {
         font-size: 15px;
         font-weight: 800;
@@ -96,6 +99,9 @@ body {
         background: #845eb0;
         color: #fafafa; }
         .groupchat .groupchat_buttons .btn2:hover {
+          cursor: pointer;
+          background: #d9b8ff; }
+        .groupchat .groupchat_buttons .btn2:active {
           cursor: pointer;
           background: #d9b8ff; }
   .number1-section {
@@ -216,6 +222,8 @@ body {
       color: #fafafa;
       font-weight: 900; }
       footer .footer-button-download:hover {
+        background-color: #b18bdd; }
+      footer .footer-button-download:active {
         background-color: #b18bdd; }
     footer span {
       color: #d9b8ff; } }
@@ -341,6 +349,9 @@ body {
         .groupchat .groupchat_buttons .btn1:hover {
           cursor: pointer;
           background: #71c0d4; }
+        .groupchat .groupchat_buttons .btn1:active {
+          cursor: pointer;
+          background: #71c0d4; }
       .groupchat .groupchat_buttons .btn2 {
         font-size: 15px;
         font-weight: 800;
@@ -353,6 +364,9 @@ body {
         background: #845eb0;
         color: #fafafa; }
         .groupchat .groupchat_buttons .btn2:hover {
+          cursor: pointer;
+          background: #d9b8ff; }
+        .groupchat .groupchat_buttons .btn2:active {
           cursor: pointer;
           background: #d9b8ff; }
   .number1-section {
@@ -497,6 +511,8 @@ body {
       right: 287px; }
       footer .footer-button-download:hover {
         background-color: #b18bdd; }
+      footer .footer-button-download:active {
+        background-color: #b18bdd; }
     footer span {
       color: #d9b8ff; } }
 
@@ -617,6 +633,9 @@ body {
       .groupchat_buttons .btn1:hover {
         cursor: pointer;
         background: #71c0d4; }
+      .groupchat_buttons .btn1:active {
+        cursor: pointer;
+        background: #71c0d4; }
     .groupchat_buttons .btn2 {
       position: absolute;
       left: 97px;
@@ -632,6 +651,9 @@ body {
       background: #845eb0;
       color: #fafafa; }
       .groupchat_buttons .btn2:hover {
+        cursor: pointer;
+        background: #d9b8ff; }
+      .groupchat_buttons .btn2:active {
         cursor: pointer;
         background: #d9b8ff; }
   .number1-section {
@@ -772,6 +794,8 @@ body {
       bottom: 67px;
       right: 95px; }
       footer .footer-button-download:hover {
+        background-color: #b18bdd; }
+      footer .footer-button-download:active {
         background-color: #b18bdd; }
     footer span {
       color: #d9b8ff; } }

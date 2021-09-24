@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 
-// Desktop 1440 x 1895
-// Tablet 768 x 2128
-// Mobile 375 x 2215
-
-$Green: hsl(192, 37, 38);
-$Dark-purple: hsl(268, 34, 53);
-$Black: hsl(240, 21, 20);
-$Gray: hsl(240, 10, 57);
-$Light-blue: hsl(192, 90, 77);
-$Light-purple: hsl(268, 100, 86);
-$White: hsl(0, 0, 98);
+@import 'variables';
 
 * {
   margin: 0;
@@ -134,6 +124,11 @@ body {
           cursor: pointer;
           background: #71c0d4;
         }
+
+        &:active {
+          cursor: pointer;
+          background: #71c0d4;
+        }
       }
 
       .btn2 {
@@ -149,6 +144,11 @@ body {
         color: $White;
 
         &:hover {
+          cursor: pointer;
+          background: $Light-purple;
+        }
+
+        &:active {
           cursor: pointer;
           background: $Light-purple;
         }
@@ -315,6 +315,10 @@ body {
       font-weight: 900;
 
       &:hover {
+        background-color: #b18bdd;
+      }
+
+      &:active {
         background-color: #b18bdd;
       }
     }
@@ -491,6 +495,11 @@ body {
           cursor: pointer;
           background: #71c0d4;
         }
+
+        &:active {
+          cursor: pointer;
+          background: #71c0d4;
+        }
       }
 
       .btn2 {
@@ -506,6 +515,11 @@ body {
         color: $White;
 
         &:hover {
+          cursor: pointer;
+          background: $Light-purple;
+        }
+
+        &:active {
           cursor: pointer;
           background: $Light-purple;
         }
@@ -699,6 +713,9 @@ body {
       &:hover {
         background-color: #b18bdd;
       }
+      &:active {
+        background-color: #b18bdd;
+      }
     }
     span {
       color: $Light-purple;
@@ -864,6 +881,10 @@ body {
         cursor: pointer;
         background: #71c0d4;
       }
+      &:active {
+        cursor: pointer;
+        background: #71c0d4;
+      }
     }
 
     .btn2 {
@@ -882,6 +903,10 @@ body {
       color: $White;
 
       &:hover {
+        cursor: pointer;
+        background: $Light-purple;
+      }
+      &:active {
         cursor: pointer;
         background: $Light-purple;
       }
@@ -1072,6 +1097,9 @@ body {
       bottom: 67px;
       right: 95px;
       &:hover {
+        background-color: #b18bdd;
+      }
+      &:active {
         background-color: #b18bdd;
       }
     }
