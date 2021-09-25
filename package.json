@@ -1,0 +1,32 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zola987/MeetApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zola987/MeetApp/issues"
+  },
+  "homepage": "https://github.com/Zola987/MeetApp#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": true,
+    "printWidth": 80,
+    "useTabs": false,
+    "trailingComma": "all",
+    "bracketSpacing": false
+  }
+}
